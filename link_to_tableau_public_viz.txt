@@ -1,2 +1,5 @@
 #This is a link to my tableau-public page where the embedded tableau visualizations are hosted on.
 https://public.tableau.com/app/profile/bryant1670
+
+#This is a link to my webpage displaying all 3 maps
+https://bluu0105.github.io/US-Hate-Crime-Visualization-Maps/
