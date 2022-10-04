@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: grey;
+}
+
+#special {
+    font-weight: bold;
+}
+
+#vizContainer1 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vizContainer2 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#vizContainer3 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+body {
+    padding-bottom: 20px;
+}
+
+p, #LinkInfo {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}

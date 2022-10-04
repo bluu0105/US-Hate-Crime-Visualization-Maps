@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Hate Crime Data Visualization</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js">
+    </script>
+     <link rel="stylesheet" href="./main.css">
+</head>
+<body onload="initViz();">
+    <h1>2019 US Hate Crime Data Visualization Across the Map</h1>
+    <p>Each graph focuses on different cateogrizations of hate crimes (categories of motivation include: Ethnicity/Race, Religion, and Sexual Orientation).</p>
+    <p>Datasets used to create visualizations come from the FBI Uniform Crime Report public dataset. The information was scraped using Python into a format usable by Tableau to create these maps</p>
+    <p id="special">Note: This data is for 47 contiguous states (Excludes Alaska and Hawaii for formatting reasons. Alabama was not reported under the FBI UCR.</p>
+    <div id="LinkInfo">
+        <a href="https://ucr.fbi.gov/hate-crime/2019/tables/table-13-state-cuts/" target="_blank">Click here for a link to the data tables where the information was scraped from.</a>
+    </div>
+    <div id="vizContainer1"></div>
+    <div id="vizContainer2"></div>
+    <div id="vizContainer3"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
